@@ -11,7 +11,7 @@ public class SumTwoNumTest {
     @Test
     public void test1(){
         int expected = 5;
-        int actual = SumTwoNum.sumTwoNum(2 , 3);
+        int actual = SumTwoNum.sumTwoNum(2 , 2);
         assertEquals(expected, actual);
     }
 
