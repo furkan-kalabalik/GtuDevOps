@@ -35,13 +35,6 @@ CREATE TABLE messages (
      primary key (id)
 );
 
-CREATE TABLE messagsses (
-     id int not null,
-     processed char(1) not null,
-     receiver int not null,
-     message varchar(255),
-     primary key (id)
-);
 CREATE TABLE messassagsses (
      id int not null,
      processed char(1) not null,
