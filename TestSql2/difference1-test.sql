@@ -17,8 +17,8 @@ CREATE TABLE family (
     age INT,
     weight FLOAT);
 
-INSERT INTO family VALUES (1, "Jacela", 32, 165.5);
-INSERT INTO family VALUES (2, "Foxly", 30, 152.4);
+INSERT INTO family VALUES (1, "Jacela", 33, 165.5);
+INSERT INTO family VALUES (2, "Foxly", 35, 152.4);
 INSERT INTO family VALUES (3, "Pumpkin", NULL, NULL);
 
 SELECT * FROM family;
@@ -42,6 +42,12 @@ CREATE TABLE messagsses (
      message varchar(255),
      primary key (id)
 );
-
+CREATE TABLE messassagsses (
+     id int not null,
+     processed char(1) not null,
+     receiver int not null,
+     message varchar(255),
+     primary key (id)
+);
 
 SELECT * FROM family;
